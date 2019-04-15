@@ -1,8 +1,15 @@
 import React from "react";
+import Post from "./Post";
 
 function Highlights(){
   return (
-    <h1>You could put a spread of highlighted images or posts here.</h1>
+    <div>
+      <h2>HIGHLIGHTS JSX: You could put a spread of highlighted images or posts below.</h2>
+      <Post
+        title="Post Title Example"
+        author="Post Author"
+        details="Post Details"/>
+    </div>
   );
 }
 
