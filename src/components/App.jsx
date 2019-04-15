@@ -1,7 +1,7 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Highlights from "./Highlights";
-import Content from "./Content";
+import React from 'react';
+import Navbar from './Navbar';
+import Highlights from './Highlights';
+import Content from './Content';
 
 function App(){
   return (
