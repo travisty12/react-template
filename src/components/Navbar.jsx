@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar(){
   var styledNavbar = {
-    backgroundColor: 'blue',
+    backgroundColor: 'lightblue',
     paddingTop: '50px'
   };
   return (
