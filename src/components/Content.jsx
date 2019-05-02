@@ -1,13 +1,20 @@
 import React from 'react';
-import tree from '../assets/images/tree.jpg';
+import { connect } from 'react-redux';
+import c from './../constants';
 
 function Content(){
   return (
     <div>
       <h3>CONTENT JSX: Additional body content could go here.</h3>
-      <img src={tree}/>
     </div>
   );
 }
 
-export default Content;
+const mapStateToProps = state => {
+  return {
+    first: state.first,
+    second: state.second
+  }
+}
+
+export default connect(mapStateToProps)(Content);

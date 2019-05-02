@@ -1,21 +1,26 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Highlights from './Highlights';
 import Content from './Content';
+import Header from './Header';
+import Highlights from './Highlights';
 import { Switch, Route } from 'react-router-dom';
-import NewPostForm from './NewPostForm';
 import Error404 from './Error404';
 
 function App(){
   return (
     <div>
-      <Navbar/>
+      <Header/>
       <Switch>
-        <Route exact path='/' component={Highlights} />
-        <Route path='/newpost' component={NewPostForm} />
+        <Route exact path='/' component={Content} />
+        <Route path='/newpath' component={Highlights} />
         <Route component={Error404} />
       </Switch>
-      <Content/>
+      <style global jsx>{`
+        * {
+          padding: 0;
+          margin: 0;
+        }
+      `}</style>
+
     </div>
   );
 }
