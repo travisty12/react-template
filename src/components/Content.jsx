@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import c from './../constants';
 
 function Content(){
   return (
@@ -14,7 +13,7 @@ const mapStateToProps = state => {
   return {
     first: state.first,
     second: state.second
-  }
-}
+  };
+};
 
 export default connect(mapStateToProps)(Content);

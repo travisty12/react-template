@@ -12,7 +12,7 @@ function Error404(props){
 }
 
 Error404.propTypes = {
-  location: PropTypes.object
+  location: PropTypes.string
 };
 
 export default Error404;
