@@ -1,6 +1,6 @@
 # Template - React
 
-### Created by **Travis Toal**, 5/2/19
+### Created by **Travis Scott**, 5/2/19
 
 ## Planning
 
@@ -46,4 +46,4 @@ _No known bugs as of 5/2/19_
 _This software is licensed under the ISC license_
 
 Copyright (c) 2019
-**_Travis Toal_**  
+**_Travis Scott_**  
